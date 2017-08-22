@@ -1,0 +1,21 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.robinhood.spark']" name="managedName">Robinhood.Spark</attr>
+  <attr path="/api/package[@name='com.robinhood.spark']/interface[@name='SparkView.OnScrubListener']/method[@name='onScrubbed']/parameter[@name='p0']" name="name">
+    value
+  </attr>
+
+  <attr path="/api/package[@name='com.robinhood.spark']/class[@name='SparkAdapter']/method[@name='getItem']/parameter[@name='p0']" name="name">index</attr>
+  <attr path="/api/package[@name='com.robinhood.spark']/class[@name='SparkAdapter']/method[@name='getY']/parameter[@name='p0']" name="name">index</attr>
+  <attr path="/api/package[@name='com.robinhood.spark']/class[@name='SparkAdapter']/method[@name='getX']/parameter[@name='p0']" name="name">index</attr>
+
+  <attr path="/api/package[@name='com.robinhood.spark']/class[@name='SparkAdapter']/method[@name='registerDataSetObserver']/parameter[@name='p0']" name="name">observer</attr>
+  <attr path="/api/package[@name='com.robinhood.spark']/class[@name='SparkAdapter']/method[@name='unregisterDataSetObserver']/parameter[@name='p0']" name="name">observer</attr>
+
+</metadata>
